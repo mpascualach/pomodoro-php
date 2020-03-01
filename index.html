@@ -3,15 +3,12 @@
   <link rel="stylesheet" href="./styles/style.css">
   <head></head>
   <body>
-    <?php include './timer.php'?>
 
     <div id="tomato">
-      <?php if (!$start) {
-        echo 'START';
-      } else {
-        echo $time;
-      } ?>
+      <button id="timer" onclick="startTimer()">
     </div>
+
+    <script src="js/timer.js"></script>
 
   </body>
 </html>
